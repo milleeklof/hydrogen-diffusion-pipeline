@@ -99,8 +99,8 @@ compute_mobility
 
 $$
 D(c) =
-\frac{- \int_{x^*}^{x_{\text{cut}}} \frac{\partial C}{\partial t}  dx}
-{\frac{\partial C}{\partial x}|_{x=x^*}}
+\frac{- \int_{x^{\ast}}^{x_{\text{cut}}} \frac{\partial C}{\partial t}  dx}
+{\frac{\partial C}{\partial x}\Big|_{x=x^{\ast}}}
 $$
 
 * **denominator** — local gradient at the point
