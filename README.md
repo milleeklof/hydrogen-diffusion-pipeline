@@ -136,8 +136,9 @@ If something looks off, it's usually one of:
 
 ## Acknowledgments
 
-This builds on work from a couple of people on our floor:
+This builds on work from the following people:
 
+* **Gunnar Karl Pálsson** supervised the thesis and gave valuable insights regarding the physics and data analysis.
 * **Ola Hartmann** wrote the helper functions in `helpers/` — image loading, the transmission/concentration conversion, everything the rest of the pipeline calls into.
 * **Lennart Spode** provided the calibration data (`helpers/cubic_calibration.mat`, `helpers/f_therm_struct.mat`).
 
