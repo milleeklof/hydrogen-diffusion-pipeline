@@ -1,3 +1,6 @@
+% Copyright (c) 2026 Mille Eklöf
+% Licensed under the MIT License (see LICENSE in the repository root).
+
 function runs = run_catalogue()
 
 % rect = [xstart xstop ystart ystop], region of interest in the raw image

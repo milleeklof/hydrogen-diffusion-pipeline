@@ -4,6 +4,9 @@ function Rec = get_Rec(final_folder)
     % Input: final_folder = pathway to data
     % Output: Rec = Rec data
     
+% Copyright (c) 2026 Ola Hartmann
+% Licensed under the MIT License (see LICENSE in the repository root).
+
     disp('Reading Rec data...');
 
     rpath = fullfile(final_folder, 'Rectangular ROI Data.lvm');

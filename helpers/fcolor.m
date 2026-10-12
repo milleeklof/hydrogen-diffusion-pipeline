@@ -9,6 +9,9 @@ function fcolor(nfig, a1, a5, stf, rect)
 %   stf = title
 %   rect = the rectangle
 
+% Copyright (c) 2026 Ola Hartmann
+% Licensed under the MIT License (see LICENSE in the repository root).
+
     da1 = double(flipud(a1));
     da5 = double(flipud(a5));
 

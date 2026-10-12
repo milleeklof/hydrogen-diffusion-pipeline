@@ -1,3 +1,6 @@
+% Copyright (c) 2026 Mille Eklöf
+% Licensed under the MIT License (see LICENSE in the repository root).
+
 function calculate_diffusion_adaptive_xmax()
 
 disp('RUNNING: ADAPTIVE DIFFUSION');

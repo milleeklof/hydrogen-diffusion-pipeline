@@ -1,6 +1,10 @@
 % =====================================
 % stenlund_inspection.m
 % =====================================
+
+% Copyright (c) 2026 Mille Eklöf
+% Licensed under the MIT License (see LICENSE in the repository root).
+
 function stenlund_inspection()
 
 % =====================================

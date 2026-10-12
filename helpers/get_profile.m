@@ -6,6 +6,9 @@ function [profile, a1] = get_profile(imagedir, files, pnum, rect, max_pixel, min
     % Output: profile = array with I-values for each pixel in rect i x-axis
     % a1 = image
     
+% Copyright (c) 2026 Ola Hartmann
+% Licensed under the MIT License (see LICENSE in the repository root).
+
     name = fullfile(imagedir, files(pnum).name);
     a1 = imread(name);
 

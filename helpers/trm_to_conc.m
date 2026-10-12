@@ -1,5 +1,9 @@
 function c = trm_to_conc(trm)
 % Written by Ola Hartmann
+
+% Copyright (c) 2026 Ola Hartmann
+% Licensed under the MIT License (see LICENSE in the repository root).
+
 persistent yy_grid c_grid
 
 if isempty(yy_grid)

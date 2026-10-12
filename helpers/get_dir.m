@@ -5,6 +5,9 @@ function [final_folder, imagedir, files] = get_dir(fdir, fname)
     % Output: final_folder = pathway to directory, 
     % imagedir = pathway to images, files = struct with image files
     
+% Copyright (c) 2026 Ola Hartmann
+% Licensed under the MIT License (see LICENSE in the repository root).
+
     full_name = fullfile(fdir, fname);
 
     if exist(full_name, 'dir') == 0
