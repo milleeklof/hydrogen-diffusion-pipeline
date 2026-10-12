@@ -4,6 +4,14 @@ Pipeline for turning raw transmission images into concentration profiles and dif
 
 This isn't a "run it and get an answer" kind of tool. You have to look at your data at a couple of points along the way and make some calls yourself — which rectangle to use, which time window, where to cut off the integral. The workflow below is the order I actually use it in.
 
+## Acknowledgments
+
+This builds on work from the following people:
+
+* **Ola Hartmann** wrote the helper functions in `helpers/` — image loading, the transmission/concentration conversion, everything the rest of the pipeline calls into.
+* **Gunnar Karl Pálsson** supervised the thesis and gave valuable insights regarding the physics and data analysis.
+* **Lennart Spode** provided the calibration data (`helpers/cubic_calibration.mat`, `helpers/f_therm_struct.mat`).
+
 ## Setup
 
 Add `helpers/` to your MATLAB path (`addpath('helpers')`, or right-click → Add to Path in the file browser). Everything in there — image loading, the transmission/concentration conversion, the calibration data — is called by name from the scripts in the root folder, so without it on the path nothing will run.
@@ -129,18 +137,6 @@ If something looks off, it's usually one of:
 * bad cutoff → too much scatter in D(c)
 * wrong rectangle → the physics just doesn't make sense
 
-## TODO
-
-* better cutoff visualization
-* automatically filter outliers
-
-## Acknowledgments
-
-This builds on work from the following people:
-
-* **Gunnar Karl Pálsson** supervised the thesis and gave valuable insights regarding the physics and data analysis.
-* **Ola Hartmann** wrote the helper functions in `helpers/` — image loading, the transmission/concentration conversion, everything the rest of the pipeline calls into.
-* **Lennart Spode** provided the calibration data (`helpers/cubic_calibration.mat`, `helpers/f_therm_struct.mat`).
 
 ## License
 
